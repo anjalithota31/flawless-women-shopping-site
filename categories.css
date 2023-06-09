@@ -1,0 +1,41 @@
+.traditional, .western, .office, .function , .casuals , #a{
+    
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 400px;
+   
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(152, 156, 156);
+    
+
+}
+
+.page{
+   
+    background: url(./project-images/wadrobe.avif);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.back, .fa-solid{
+    height: 30px;
+    width: 100px;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+   
+   }
+   .back{
+    border: solid 1px wheat;
+    margin-left: 10px;
+   
+    padding: 5px;
+    background-color: cadetblue;
+    
+   }
+
+
