@@ -1,0 +1,251 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.navitems{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+   
+    padding: 10px;
+    margin-left: auto;
+  
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: rgb(96, 9, 96);
+    display: flex; 
+   
+}
+.navitems a{
+    margin-left: 10px;
+    color: white;
+}
+.logo{
+   background-image: url(./project-images/beautylogo.jpg);
+   background-size: contain;
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  
+}
+
+.main-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+   height: 400px;
+   width: 100%;
+
+    background-image:  url(./project-images/mainclothing.avif);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;  
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin: auto;
+}
+.title{
+  height: 350px;
+  margin-left: 50px;
+  display: grid;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+  color: white;
+}
+.tagline{
+  height: 100px;
+  width: 280px;
+  border-radius: 50%;
+  border:solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./project-images/wadrobe.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  color:yellow;
+
+  
+}
+
+/* caurosal */
+
+.slideshow-container {
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+    height: 100vh;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  .mySlides img{
+    height: 100vh;
+  }
+  .slideshowmain{
+    background-color: rgb(135, 86, 181);
+    padding: 40px 0px;
+  }
+  /* parallax section */
+  .parralax1{
+    
+    background: url(./project-images/1stimage.jpg) no-repeat center/cover fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skin-div img{
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+  }
+  .skin-content {
+    color:white;
+    background-color:rgb(50, 48, 48) ;
+    height: 200px;
+    width: 350px;
+    padding: 15px;
+
+  }
+  .skin-content p{
+    line-height: 25px;
+    font-size: x-small;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+ 
+  
+  
+  aos
+  .aos{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+   
+  }
+  .aos img{
+    width: 100%;
+    height: 100%;
+  
+
+  }
+  /* .footer{
+    background-color: grey;
+    height: 30vh;
+   
+  }
+  .footer ul{
+    display: flex;
+   
+    list-style: none;
+    width: 20%;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+  }
+  .footer a{
+    color: white;
+    font-size: 45px;
+  } */
